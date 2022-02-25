@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eva|Portfolio</title>
 </head>
-<body class="body">
+<body class="body" id="body">
     <header class="sticky-top">
         <div class="dropdown">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -25,7 +25,7 @@
           </div>
 
           <div class="darkMode">
-              <input type="checkbox" name="mode" id="DarkOrLight">
+              <input type="checkbox" onclick="alterMode()" name="mode" id="DarkOrLight">
               <label for="DarkOrLight">Light</label>
           </div>
 
@@ -40,7 +40,7 @@
              <li><a href="#projects">Projects</a></li>
         </ul>
         <div class="darkMode">
-            <input type="checkbox" name="mode" id="DarkOrLight2">
+            <input type="checkbox" name="mode" onclick="alterMode()" id="DarkOrLight2">
             <label for="DarkOrLight2">Light</label>
         </div>
      </div>
@@ -107,9 +107,9 @@
      </div>
     </div>
 
-    <div class="bioWithH2" id="bio">
+    <div class="bioWithH2">
         <h2>Eve in Depth</h2>
-        <div class="bio">
+        <div class="bio" id="bio">
             <div class="conte">
                 <h4>Name</h4>
                 <p>Eva Wamuyu</p>
@@ -183,7 +183,7 @@
    
     <hr>
 
-    <footer id="footer">
+    <footer id="footer" class="footer">
         <h4>Contact Info:</h4>
         <p>My Socials are:
             <ul>
