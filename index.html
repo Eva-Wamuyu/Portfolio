@@ -10,17 +10,16 @@
     <title>Eva|Portfolio</title>
 </head>
 <body class="body">
-    <header>
+    <header class="sticky-top">
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                &#x2630;
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                &#9776;
             </button>
             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-              <li><a class="dropdown-item active" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Separated link</a></li>
+              <li><a class="dropdown-item" href="#intro">Home</a></li>
+              <li><a class="dropdown-item" href="#projects">Projects</a></li>
+              <li><a class="dropdown-item" href="#bio">About</a></li>
+              <li><a class="dropdown-item" href="#footer">Contact</a></li>
             </ul>
           </div>
 
@@ -32,7 +31,7 @@
     </header>
 
 
-    <div class="intro">
+    <div class="intro" id="intro">
         <div class="imgCard">
             <img src="./Assets/DSC_5864.jpg" alt="evaprofile">
 
@@ -47,7 +46,7 @@
     </div>
 
 
-    <div class="projectsWithHeading">
+    <div class="projectsWithHeading" id="projects">
         <h2>Projects</h2>
      <div class="projects">
         <div class="eachProj">
@@ -80,7 +79,7 @@
             <h3>SMART-FARM</h3>
             <a href="https://eva-wamuyu.github.io/THE-SMART-FARM/contacts.html"><img src="./Assets/Screenshot from 2022-02-25 08-43-35.png" alt=""></a>
             <p>
-                This is website with farming information.
+                This is a website with farming information.
                 It was a group project - TechieFarmers.org. 
                 Technologies used: HTML, CSS, Bootstrap and Javascript.
                 <br>
@@ -92,7 +91,7 @@
      </div>
     </div>
 
-    <div class="bioWithH2">
+    <div class="bioWithH2" id="bio">
         <h2>Eve in Depth</h2>
         <div class="bio">
             <div>
@@ -161,7 +160,7 @@
    
     <hr>
 
-    <footer>
+    <footer id="footer">
         <h4>Contact Info:</h4>
         <p>My Socials are:
             <ul>
