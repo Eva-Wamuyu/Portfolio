@@ -38,7 +38,7 @@ A static web with info about me, including contacts and projects done as at Feb-
 * Bootstrap
 
 
-[Go Back to the top](#Wamuyu's-Portfolio)
+[Go Back to the top](#description))
 
 ## Bugs
 
