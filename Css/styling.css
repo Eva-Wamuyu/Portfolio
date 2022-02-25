@@ -113,9 +113,6 @@ footer{
 
 
 @media only screen and (min-width:769px){
-    .body{
-        background-color: white;/* testing breakpoint*/
-    }
     header{
         display: none;
     }
@@ -127,6 +124,7 @@ footer{
         height: 10.5vh;
         position: relative;
         margin-top: 0;
+        border-bottom: 0.75px solid white;
           
     }
     #deskHeader ul li{
@@ -162,6 +160,11 @@ footer{
     .desktop{
         display: flex;
         
+    }
+    .contCard{
+        width: 40vw;
+        margin: auto;
+        transform: translate(0,-50%);
     }
     
 }
