@@ -49,6 +49,7 @@ header{
 .bioWithH2{
     max-width: 85vw;
     margin: auto;
+    margin-top: 6.5vh;
     background-color: #0F1E30;
     color: rgb(255,255,255);
   
@@ -64,4 +65,6 @@ footer{
     max-width: 85vw;
     margin: auto;
     text-align: center;
+    background-color: #0F1E30;
+    color: rgb(255,255,255);
 }
