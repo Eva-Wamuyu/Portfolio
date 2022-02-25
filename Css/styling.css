@@ -11,9 +11,14 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #0F1E30;
+    height: 5.5vh;
+    
 }
 .btn{
     color: rgb(255,255,255);
+}
+.deskHeader{
+    display: none;
 }
 .intro{
   background-color: #020412;
@@ -56,6 +61,11 @@ header{
     text-decoration: underline;
     text-decoration-style: dotted;
 }
+.eachProj{
+    color: rgb(0,0,0);
+    padding: 2.5vh 0vh;
+    box-shadow: 1px 1px 5px black;
+}
 .bioWithH2{
     max-width: 85vw;
     margin: auto;
@@ -84,4 +94,51 @@ footer{
     text-align: center;
     background-color: #020412;
     color: rgb(255,255,255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:767px){
+    .body{
+        background-color: white;/* testing breakpoint*/
+    }
+    header{
+        display: none;
+    }
+    #deskHeader{
+        display: initial; 
+        background-color: #0F1E30;
+        height: 12.5vh;
+        
+        
+    }
+    #deskHeader ul li{
+        display: inline;
+    }
+    .intro{
+        background-color: #020412;
+        max-width: 85vw;
+        color: #FFFFFF;
+        margin: auto;
+        text-align: center;
+        margin-top: 50vh;
+        
+      
+      }
+      .intro .imgCard img{
+        height: 30%;
+        width: 30%;
+      }
+    
+    
 }
