@@ -1,4 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 header{
     display: flex;
     justify-content: space-between;
+}
+
+.intro{
+  background-color: #0F1E30;
+  max-width: 85vw;
+  color: #FFFFFF;
+  margin: auto;
+  text-align: center;
+  margin-top: 10.5vh;
+  
+
+}
+.intro .imgCard img{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.imgCard{
+    position: relative;
+    transform: translate(0%,-50%);
 }
