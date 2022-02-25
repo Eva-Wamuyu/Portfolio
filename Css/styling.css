@@ -53,3 +53,15 @@ header{
     color: rgb(255,255,255);
   
 }
+footer ul{
+    list-style: none;
+    
+}
+footer ul li{
+    display: inline;
+}
+footer{
+    max-width: 85vw;
+    margin: auto;
+    text-align: center;
+}
