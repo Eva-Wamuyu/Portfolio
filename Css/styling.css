@@ -5,7 +5,7 @@
 }
 .body{
     background-color: #0F1E30;
-    color: rgb(255,255,255);
+    color: #F1E9DF;
 }
 header{
     display: flex;
@@ -23,7 +23,7 @@ header{
 .intro{
   background-color: #020412;
   max-width: 85vw;
-  color: #FFFFFF;
+  color: #F1E9DF;
   margin: auto;
   text-align: center;
   margin-top: 10.5vh;
@@ -54,20 +54,22 @@ header{
     flex-direction: column;
     max-width: 85vw;
     margin: auto;
-    background-color: #c4c4c4;
     text-align: center;
 }
 .projectsWithHeading h2, .bioWithH2 h2{
     text-align: center;
-    color: rgb(255,255,255);
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    color: #F1E9DF;
+    
+
 }
+
 .eachProj{
     color: rgb(0,0,0);
     padding: 2.5vh 0vh;
-    box-shadow: 1px 1px 5px black;
-    height: 45vh;
+    box-shadow: 1px 1px 5px #c4c4c4;
+    height: 65vh;
+    background-color: #c4c4c4;
+    margin-top: 2.5vh;
     
 }
 .bioWithH2{
@@ -77,10 +79,12 @@ header{
     
   
 }
-
+.darkMode{
+    color: #F1E9DF;
+}
 .bio{
     background-color: #020412;
-    color: rgb(255,255,255);
+    color: #F1E9DF;
 
 }
 footer ul{
@@ -97,12 +101,17 @@ footer{
     padding-top: 2.5vh;
     text-align: center;
     background-color: #020412;
-    color: rgb(255,255,255);
+    color: #F1E9DF;
 }
 
 
 
-
+p{
+    font-size: 1.25em;
+}
+h1{
+    font-size: 2em;
+}
 
 
 
@@ -180,16 +189,42 @@ footer{
         margin: auto;
         transform: translate(0,-50%);
     }
+    .projectsWithHeading{
+        margin-top: 7.5vh;
+    }
+    .bios .bios1{
+        float: left;
+    }
+    .bios .bios2{
+        float: right;
+    }
+    .footer p{
+        float: left;
+        margin-left: 16.5vw;
+        
+    }
     
 }
 
 
 /*classes for light mode */
 .lightBody{
-    background-color: rgb(255,255,255);
+    background-color: #F1E9DF;
     color: rgb(0,0,0);
 }
 .lightDivs{
     background-color: #c4c4c4;
     color: rgb(0,0,0);
+    
+}
+.lightBody h2{
+    color: rgb(0,0,0);
+}
+.lightBorder{
+    border-bottom: 0.75px solid black;
+
+}
+.lightDivs .eachProj{
+    box-shadow: 1px 1px 5px rgb(0,0,0);
+
 }
