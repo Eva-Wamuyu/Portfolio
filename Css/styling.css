@@ -31,5 +31,18 @@ header{
 }
 .eachProj img{
     width: 75%;
-    height: 75%;
+    /* height: 75%; */
+    margin: auto;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    max-width: 85vw;
+    margin: auto;
+    background-color: #c4c4c4;
+    text-align: center;
+}
+.projectsWithHeading h2{
+    text-align: center;
 }
