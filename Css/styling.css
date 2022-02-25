@@ -46,7 +46,9 @@ header{
     /* height: 75%; */
     margin: auto;
 }
-
+.conte li{
+    list-style: none;
+}
 .projects{
     display: flex;
     flex-direction: column;
@@ -143,6 +145,15 @@ footer{
         max-width: 27vw;
         margin: auto;
     }
-    
+    .bio{
+        display: flex;
+
+    }
+    .bio .conte{
+        max-width: 27vw;
+        margin: auto;
+        margin-top: 2.5vh;
+        
+    }
     
 }
