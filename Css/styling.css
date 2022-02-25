@@ -65,6 +65,8 @@ header{
     color: rgb(0,0,0);
     padding: 2.5vh 0vh;
     box-shadow: 1px 1px 5px black;
+    height: 45vh;
+    
 }
 .bioWithH2{
     max-width: 85vw;
@@ -108,7 +110,7 @@ footer{
 
 
 
-@media only screen and (min-width:767px){
+@media only screen and (min-width:769px){
     .body{
         background-color: white;/* testing breakpoint*/
     }
@@ -126,12 +128,7 @@ footer{
         display: inline;
     }
     .intro{
-        background-color: #020412;
-        max-width: 85vw;
-        color: #FFFFFF;
-        margin: auto;
-        text-align: center;
-        margin-top: 50vh;
+        margin-top: 35vh;
         
       
       }
@@ -139,6 +136,13 @@ footer{
         height: 30%;
         width: 30%;
       }
+    .projects{
+        flex-direction: row;
+    }
+    .eachProj{
+        max-width: 27vw;
+        margin: auto;
+    }
     
     
 }
