@@ -129,13 +129,27 @@ footer{
     }
     #deskHeader ul li{
         display: inline;
+    
         
     }
+    #deskHeader a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+        margin: 6.5vw;
+    }
+    #deskHeader a:hover{
+        text-decoration: underline;
+
+    }
+    #deskHeader ul, #deskHeader .darkMode{
+        margin-top: 3.5vh;
+
+    }
+     
     .intro{
         margin-top: 35vh;
-        
-      
-      }
+         
+    }
       .intro .imgCard img{
         height: 30%;
         width: 30%;
@@ -167,4 +181,15 @@ footer{
         transform: translate(0,-50%);
     }
     
+}
+
+
+/*classes for light mode */
+.lightBody{
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+}
+.lightDivs{
+    background-color: #c4c4c4;
+    color: rgb(0,0,0);
 }
