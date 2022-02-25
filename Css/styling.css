@@ -46,3 +46,10 @@ header{
 .projectsWithHeading h2{
     text-align: center;
 }
+.bioWithH2{
+    max-width: 85vw;
+    margin: auto;
+    background-color: #0F1E30;
+    color: rgb(255,255,255);
+  
+}
