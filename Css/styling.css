@@ -120,14 +120,18 @@ footer{
         display: none;
     }
     #deskHeader{
-        display: initial; 
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
         background-color: #0F1E30;
-        height: 12.5vh;
-        
-        
+        height: 10.5vh;
+        position: relative;
+        margin-top: 0;
+          
     }
     #deskHeader ul li{
         display: inline;
+        
     }
     .intro{
         margin-top: 35vh;
@@ -153,6 +157,10 @@ footer{
         max-width: 27vw;
         margin: auto;
         margin-top: 2.5vh;
+        
+    }
+    .desktop{
+        display: flex;
         
     }
     
