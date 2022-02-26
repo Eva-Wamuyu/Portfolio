@@ -154,15 +154,36 @@ h1{
         margin-top: 3.5vh;
 
     }
-     
     .intro{
-        margin-top: 35vh;
-         
-    }
-      .intro .imgCard img{
-        height: 30%;
-        width: 30%;
+        position: static;
+        background-color: #020412;
+        max-width: 85vw;
+        height: 55vh;
+        color: #F1E9DF;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6.5vh;
+    
+      
       }
+     
+      .imgCard{
+          position: static;
+          transform: unset;
+          width: 35vw;
+          
+      }
+      .contCard{
+          width: 35vw;
+          
+      }
+      
+      
+
+
     .projects{
         flex-direction: row;
     }
@@ -184,11 +205,7 @@ h1{
         display: flex;
         
     }
-    .contCard{
-        width: 40vw;
-        margin: auto;
-        transform: translate(0,-50%);
-    }
+   
     .projectsWithHeading{
         margin-top: 7.5vh;
     }
@@ -203,6 +220,27 @@ h1{
         margin-left: 16.5vw;
         
     }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .eachProj img{
+          width: 75%;
+          /* height: 75%; */
+          margin: auto;
+      }
     
 }
 
